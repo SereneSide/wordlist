@@ -1,0 +1,17 @@
+
+NOT familiar?
+
+new SPELLING > MEANING          add a new word to the list
+
+view X [Y]                      view words indexed from X to Y.
+                                it should be noted that
+                                X and Y can be minus,
+                                to indicate counting from the rear.
+vieww X [Y]                     same as view, but without meanings.
+viewm X [Y]                     without spellings.
+
+edit INDEX SPELLING > MEANING   change the word indexed at INDEX.
+
+fetch WORD                      display WORD. If not found, display
+                                the most similar word recorded.
+
